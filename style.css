@@ -4,8 +4,15 @@ body{
 h1{
     font-size: 40px;
 }
-.sepcaial-word{
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.special-word{
     color: coral;
+}
+.special-word-2{
+    color: limegreen;
 }
 .flexible-container{
     display: flex;
@@ -14,4 +21,70 @@ h1{
 .half-width{
     width: 50%;
     padding-left: 20%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(purple, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.top-word{
+    border-left: 4px solid;
+    border-image: linear-gradient(gold,blue);
+    border-image-slice: 1;
+}
+
+.focus-area{
+    font-size: 70%;
+    
+}
+.mission-item{
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color:lightcyan;
+    text-align: justify;
+    background-image: url(images/illustrators/illustrator-1.png);
+    background-repeat: no-repeat;
+    background-size: 90px;
+}
+.vission-item{
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: lightpink;
+    text-align: justify;
+    background-image: url(images/illustrators/illustrator-2.png);
+    background-repeat: no-repeat;
+    background-size: 90px;
+}
+.goal-item{
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: lightsalmon;
+    text-align: justify;
+    background-image: url(images/illustrators/illustrator-3.png);
+    background-repeat: no-repeat;
+    background-size: 90px;
 }
