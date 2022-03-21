@@ -25,13 +25,14 @@ h2{
 .half-width img{
     width: 80%;
 }
-.link-button{
+.button-1{
     text-decoration: none;
     background-image: linear-gradient(purple, tomato);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    font-size: 70%;
 }
 .top-word{
     border-left: 4px solid;
@@ -87,4 +88,21 @@ h2{
     background-image: url(images/illustrators/illustrator-3.png);
     background-repeat: no-repeat;
     background-size: 90px;
+}
+img{
+    width: 20%;
+    padding-right: 20%;
+}
+.button-2{
+    text-decoration: none;
+    background-image: linear-gradient(purple, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 70%;
+}
+.dev-1{
+    width: 50%;
+    padding-left: 20%;
 }
